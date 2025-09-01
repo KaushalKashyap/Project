@@ -21,5 +21,4 @@ def distplots(col):
     
 for i in list(df.columns)[1:]:
     distplots(i)
-    
-    ![image](https://user-images.githubusercontent.com/103347507/209315355-772e30bf-3f60-4498-8fc0-b952b95d42b7.png)
+Print(sns.displots(i))
